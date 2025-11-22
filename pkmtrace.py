@@ -35,7 +35,7 @@ def hitung_status(temp, rh):
 # 3. JUDUL WEB
 # ===============================
 st.title("🌡 TRACE — Tracking and Control of Environmental Conditions")
-st.write("Website pemantauan suhu & kelembaban berdasarkan No Batch (tanpa pandas)")
+st.write("Website pemantauan suhu & kelembaban berdasarkan No Batch")
 
 # ===============================
 # 4. INPUT DATA
@@ -119,4 +119,5 @@ else:
 # ===============================
 if st.button("🗑 Hapus Semua Data", use_container_width=True):
     st.session_state.data = []
+
     st.warning("Semua data telah dihapus.")
